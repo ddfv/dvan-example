@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "dvan dev",
+    "build": "dvan build",
+    "generate": "dvan generate"
+  },
+  "devDependencies": {
+    "@dvan/plugin-ssg": "^2.0.0-alpha.8",
+    "dvan": "^2.0.0-alpha.8",
+    "toml": "^2.3.3"
+  }
+}

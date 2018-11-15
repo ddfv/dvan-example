@@ -1,0 +1,10 @@
+plugins = [
+  '@dvan/plugin-ssg'
+]
+
+[html]
+title = 'dvan - example'
+
+  [[html.meta]]
+  d = 'c'
+  wo = 'aasd'

@@ -1,5 +1,5 @@
 <template>
-  <button @click="count += 1">button comp {{ count }}</button>
+  <el-button @click="count += 1">button comp {{ count }}</el-button>
 </template>
 
 <script>

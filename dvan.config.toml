@@ -2,9 +2,11 @@ plugins = [
   '@dvan/plugin-ssg'
 ]
 
+jsx = true
+
 [html]
 title = 'dvan - example'
 
   [[html.meta]]
-  d = 'c'
-  wo = 'aasd'
+  tiangou = 'dao zui hou yi wu suo you.'
+  nmsl = 'Your 🐎 is dead!'

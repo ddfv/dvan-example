@@ -6,7 +6,13 @@
   },
   "devDependencies": {
     "@dvan/plugin-ssg": "^2.0.0-alpha.8",
+    "@vue/babel-helper-vue-jsx-merge-props": "^0.1.0",
+    "@vue/babel-preset-jsx": "^0.1.0",
     "dvan": "^2.0.0-alpha.8",
     "toml": "^2.3.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.4.10"
   }
 }

@@ -1,3 +1,5 @@
+match = 'vue, jsx'
+
 plugins = [
   '@dvan/plugin-ssg'
 ]

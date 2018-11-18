@@ -23,20 +23,20 @@ export default {
         <Button/>
         <br/>
         <router-link to='nested'>nested</router-link>
-        &nbsp;
+        -
         <router-link to='notfound'>to 404</router-link>
 
-        <p>{this.msg}</p>
-
-        <input v-model={this.msg}/>
-
+        <div style='margin-top: 1rem;'>
+          <input v-model={this.msg}/>
+          <p>{this.msg}</p>
+        </div>
       </div>
     )
   },
 
   data() {
     return {
-      msg: 'msgg'
+      msg: 'edit me with v-model'
     }
   }
 }

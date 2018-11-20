@@ -5,9 +5,8 @@
     "generate": "dvan generate"
   },
   "devDependencies": {
+    "@dvan/babel-preset-jsx": "^2.0.0-alpha.12",
     "@dvan/plugin-ssg": "^2.0.0-alpha.8",
-    "@vue/babel-helper-vue-jsx-merge-props": "^0.1.0",
-    "@vue/babel-preset-jsx": "^0.1.0",
     "dvan": "^2.0.0-alpha.8",
     "toml": "^2.3.3"
   },

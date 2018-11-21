@@ -606,6 +606,18 @@
     vue-auto-routes "^1.1.14"
     vue-router "^3.0.1"
 
+"@dvan/babel-preset-jsx@^2.0.0-alpha.12":
+  version "2.0.0-alpha.12"
+  resolved "https://registry.npmjs.org/@dvan/babel-preset-jsx/-/babel-preset-jsx-2.0.0-alpha.12.tgz#f2e234f700c31f7c61fe74f79ec3be18266fd3d7"
+  integrity sha512-TRxLrYtEKUE2LvojOvungYnCbCjlr9CS9NCWCaEudifz3B9/vynno2UOrTZeEZ8Ohvb981TXpV6LiCAjhG5wNQ==
+  dependencies:
+    "@vue/babel-helper-vue-jsx-merge-props" "^0.1.0"
+    "@vue/babel-plugin-transform-vue-jsx" "^0.1.0"
+    "@vue/babel-sugar-functional-vue" "^0.1.0"
+    "@vue/babel-sugar-inject-h" "^0.1.0"
+    "@vue/babel-sugar-v-model" "^0.1.0"
+    "@vue/babel-sugar-v-on" "^0.1.0"
+
 "@dvan/cli-utils@^2.0.0-alpha.9":
   version "2.0.0-alpha.9"
   resolved "https://registry.npmjs.org/@dvan/cli-utils/-/cli-utils-2.0.0-alpha.9.tgz#1426a7299c816ab21af92fef4d0ab96c9afe134e"
@@ -662,18 +674,6 @@
     "@babel/plugin-syntax-jsx" "^7.0.0-rc.3"
     "@vue/babel-helper-vue-jsx-merge-props" "^0.1.0"
     lodash.kebabcase "^4.1.1"
-
-"@vue/babel-preset-jsx@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@vue/babel-preset-jsx/-/babel-preset-jsx-0.1.0.tgz#86bf8beec606ff2d2983254889732b27fac5bc52"
-  integrity sha512-Fw8EgKODxxq+4f7HJp12sYfyTq+LMC/PSGQNsKCpvxglWsCcoOMnsSs8a5O5IwMRImPI2t0y7IOI3fcNB/1ZtQ==
-  dependencies:
-    "@vue/babel-helper-vue-jsx-merge-props" "^0.1.0"
-    "@vue/babel-plugin-transform-vue-jsx" "^0.1.0"
-    "@vue/babel-sugar-functional-vue" "^0.1.0"
-    "@vue/babel-sugar-inject-h" "^0.1.0"
-    "@vue/babel-sugar-v-model" "^0.1.0"
-    "@vue/babel-sugar-v-on" "^0.1.0"
 
 "@vue/babel-sugar-functional-vue@^0.1.0":
   version "0.1.0"
@@ -4147,6 +4147,11 @@ npmlog@^4.0.2:
     console-control-strings "~1.1.0"
     gauge "~2.7.3"
     set-blocking "~2.0.0"
+
+nprogress@^0.2.0:
+  version "0.2.0"
+  resolved "http://registry.npmjs.org/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
+  integrity sha1-y480xTIT2JVyP8urkH6UIq28r7E=
 
 nth-check@^1.0.2, nth-check@~1.0.1:
   version "1.0.2"

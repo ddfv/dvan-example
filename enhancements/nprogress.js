@@ -4,7 +4,9 @@ import 'nprogress/nprogress.css'
 nprogress.configure({ showSpinner: false })
 
 function progressbar(_f) {
-  if (process.browser) nprogress[_f]()
+  if (process.browser) {
+    nprogress[_f]()
+  }
 }
 
 export default ({ router }) => {

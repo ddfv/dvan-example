@@ -12,3 +12,7 @@ title = 'dvan - example'
   [[html.meta]]
   tiangou = 'dao zui hou yi wu suo you.'
   nmsl = 'Your 🐎 is dead!'
+
+  [[html.meta]]
+  ningmeng = 'suan le'
+  nmsl = 'Your 🐎 is dead!'

@@ -1,13 +1,15 @@
 {
+  "name": "dvan_example",
+  "description": "caonima",
   "scripts": {
     "dev": "dvan dev",
     "build": "dvan build",
     "generate": "dvan generate"
   },
   "devDependencies": {
-    "@dvan/babel-preset-jsx": "^2.0.0-alpha.12",
-    "@dvan/plugin-ssg": "^2.0.0-alpha.8",
-    "dvan": "^2.0.0-alpha.8",
+    "@dvan/babel-preset-jsx": "^2.0.0-alpha.17",
+    "@dvan/plugin-ssg": "^2.0.0-alpha.17",
+    "dvan": "^2.0.0-alpha.17",
     "toml": "^2.3.3"
   },
   "dependencies": {
@@ -18,7 +20,11 @@
   },
   "xo": {
     "space": true,
-    "semicolon": false,
     "prettier": true
+  },
+  "dvan": {
+    "html": {
+      "title": "override pkg"
+    }
   }
 }

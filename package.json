@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "d": "dvan",
+    "dev": "dvan --dev"
+  },
+  "devDependencies": {
+    "dvan": "^2.1.0-alpha.1",
+    "vue-template-compiler": "^2.5.18"
+  },
+  "dependencies": {
+    "@dvan/babel-preset-vue-jsx": "^2.1.0-alpha.2",
+    "antd": "^3.11.2",
+    "preact": "^8.4.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "vue": "^2.5.18"
+  },
+  "dvan": {
+    "jsx": "vue",
+    "plugins": [
+      "@dvan/vue-static"
+    ]
+  }
+}
